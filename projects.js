@@ -24,10 +24,10 @@ const closeBtn = document.querySelector('.close');
 // Project data for modal content
 const projectData = {
     project1: {
-        title: 'Sumilion Industry - North America',
+        title: 'Sumilion Industry - North Africa',
         category: 'Industrial',
         year: '2024',
-        description: 'A large-scale industrial facility project in North America showcasing modern industrial architecture and operational efficiency design. This project demonstrates Maz Infratech Pvt. Ltd.\'s capability in international industrial construction, featuring state-of-the-art manufacturing infrastructure and sustainable industrial design principles.',
+        description: 'A large-scale industrial facility project in North Africa showcasing modern industrial architecture and operational efficiency design. This project demonstrates Maz Infratech Pvt. Ltd.\'s capability in international industrial construction, featuring state-of-the-art manufacturing infrastructure and sustainable industrial design principles.',
         features: [
             'Large-scale industrial facility',
             'Modern manufacturing infrastructure',
@@ -37,7 +37,7 @@ const projectData = {
             'Advanced structural engineering',
             'Industrial safety compliance',
             'Scalable facility design',
-            'North American construction standards'
+            'North African construction standards'
         ],
         stats: {
             area: '75,000 Sq Ft',
@@ -50,7 +50,7 @@ const projectData = {
         ]
     },
     project2: {
-        title: 'Bulanseher College Elevation',
+        title: 'Bulandseher College Elevation',
         category: 'Educational',
         year: '2025',
         description: 'A comprehensive educational institution project featuring modern architectural design that balances functionality with aesthetic appeal. The design incorporates contemporary elements while creating an inspiring learning environment for students and faculty.',
