@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Projects - mazinfratech</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><h2>mazinfratech</h2></a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="projects.html" class="nav-link active">Projects</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Projects Hero Section -->
+    <section class="projects-hero">
+        <div class="projects-hero-background">
+            <div class="projects-hero-slide active" style="background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')"></div>
+            <div class="projects-hero-slide" style="background-image: url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')"></div>
+            <div class="projects-hero-slide" style="background-image: url('https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')"></div>
+            <div class="projects-hero-overlay"></div>
+        </div>
+        <div class="projects-hero-container">
+            <div class="projects-hero-content">
+                <h1>Our Projects</h1>
+                <p>Showcasing our expertise through successful architectural transformations</p>
+                <div class="projects-hero-highlights">
+                    <div class="hero-highlight">
+                        <span class="highlight-icon">🏢</span>
+                        <span class="highlight-text">Residential</span>
+                    </div>
+                    <div class="hero-highlight">
+                        <span class="highlight-icon">🏢</span>
+                        <span class="highlight-text">Commercial</span>
+                    </div>
+                    <div class="hero-highlight">
+                        <span class="highlight-icon">🔄</span>
+                        <span class="highlight-text">Renovation</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Slide indicators -->
+        <div class="projects-hero-indicators">
+            <span class="projects-indicator active" data-slide="0"></span>
+            <span class="projects-indicator" data-slide="1"></span>
+            <span class="projects-indicator" data-slide="2"></span>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="project-filters">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Our Projects</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Gallery -->
+    <section class="projects-gallery">
+        <div class="container">
+            <div class="projects-grid-full">
+                <!-- Project 1 -->
+                <div class="project-card-full" data-category="industrial">
+                    <div class="project-image-full">
+                        <img src="projects/sumilion/WhatsApp Image 2025-09-07 at 1.01.48 PM.jpeg" alt="Sumilion Industry North America">
+                        <div class="project-overlay">
+                            <div class="project-overlay-content">
+                                <h3>Sumilion Industry</h3>
+                                <p>Industrial Facility • North America • 2024</p>
+                                <button class="view-project-btn" onclick="openModal('project1')">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info-full">
+                        <span class="project-category">Industrial</span>
+                        <h3>Sumilion Industry - North America</h3>
+                        <p>Large-scale industrial facility project in North America showcasing modern industrial architecture and operational efficiency design.</p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-value">75,000</span>
+                                <span class="stat-label">Sq Ft</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">24</span>
+                                <span class="stat-label">Months</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card-full" data-category="educational">
+                    <div class="project-image-full">
+                        <img src="projects/bulanseher collage/WhatsApp Image 2025-09-07 at 12.51.10 PM.jpeg" alt="Bulanseher College Elevation">
+                        <div class="project-overlay">
+                            <div class="project-overlay-content">
+                                <h3>Bulandseher College</h3>
+                                <p>Educational Institution • 2025</p>
+                                <button class="view-project-btn" onclick="openModal('project2')">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info-full">
+                        <span class="project-category">Educational</span>
+                        <h3>Bulandseher College Elevation</h3>
+                        <p>Modern educational institution design featuring contemporary architectural elements and student-focused spaces.</p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-value">25,000</span>
+                                <span class="stat-label">Sq Ft</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">8</span>
+                                <span class="stat-label">Months</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card-full" data-category="residential">
+                    <div class="project-image-full">
+                        <img src="projects/g2/WhatsApp Image 2025-09-07 at 12.53.33 PM.jpeg" alt="G2 Residential Complex">
+                        <div class="project-overlay">
+                            <div class="project-overlay-content">
+                                <h3>G2 Residential Complex</h3>
+                                <p>Modern Living • 2024</p>
+                                <button class="view-project-btn" onclick="openModal('project3')">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info-full">
+                        <span class="project-category">Residential</span>
+                        <h3>G2 Residential Complex</h3>
+                        <p>Contemporary residential complex featuring modern architectural design with elegant facade treatment and functional living spaces.</p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-value">15,000</span>
+                                <span class="stat-label">Sq Ft</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">10</span>
+                                <span class="stat-label">Months</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card-full" data-category="educational">
+                    <div class="project-image-full">
+                        <img src="projects/lakhimpur/WhatsApp Image 2025-09-07 at 1.05.23 PM.jpeg" alt="Lakhimpur Medical College">
+                        <div class="project-overlay">
+                            <div class="project-overlay-content">
+                                <h3>Lakhimpur Medical College</h3>
+                                <p>Medical Education • 2024</p>
+                                <button class="view-project-btn" onclick="openModal('project4')">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info-full">
+                        <span class="project-category">Educational</span>
+                        <h3>Lakhimpur Medical College</h3>
+                        <p>State-of-the-art medical education facility featuring modern architectural design with specialized healthcare training environments.</p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-value">35,000</span>
+                                <span class="stat-label">Sq Ft</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">14</span>
+                                <span class="stat-label">Months</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card-full" data-category="infrastructure">
+                    <div class="project-image-full">
+                        <img src="projects/multilevel parking/WhatsApp Image 2025-09-07 at 12.51.11 PM (1).jpeg" alt="Multilevel Parking Structure">
+                        <div class="project-overlay">
+                            <div class="project-overlay-content">
+                                <h3>Multilevel Parking Structure</h3>
+                                <p>Infrastructure Design • 2024</p>
+                                <button class="view-project-btn" onclick="openModal('project5')">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info-full">
+                        <span class="project-category">Infrastructure</span>
+                        <h3>Multilevel Parking Structure</h3>
+                        <p>Modern multilevel parking facility designed by mazinfratech featuring efficient space utilization and contemporary architectural elements.</p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-value">45,000</span>
+                                <span class="stat-label">Sq Ft</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">18</span>
+                                <span class="stat-label">Months</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card-full" data-category="educational">
+                    <div class="project-image-full">
+                        <img src="projects/pm room/WhatsApp Image 2025-09-07 at 12.53.24 PM.jpeg" alt="Gajra Raja Chikitsha Mahavidhyala PM Room">
+                        <div class="project-overlay">
+                            <div class="project-overlay-content">
+                                <h3>Gajra Raja Chikitsha Mahavidhyala</h3>
+                                <p>Medical Education Facility • 2024</p>
+                                <button class="view-project-btn" onclick="openModal('project6')">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info-full">
+                        <span class="project-category">Educational</span>
+                        <h3>Gajra Raja Chikitsha Mahavidhyala</h3>
+                        <p>PM room front elevation and signage design for prestigious medical college by mazinfratech featuring modern architectural elements.</p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-value">2,500</span>
+                                <span class="stat-label">Sq Ft</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">6</span>
+                                <span class="stat-label">Months</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 7 -->
+                <div class="project-card-full" data-category="signage">
+                    <div class="project-image-full">
+                        <img src="projects/signage/WhatsApp Image 2025-09-07 at 12.53.18 PM (1).jpeg" alt="mazinfratech Signage Solutions">
+                        <div class="project-overlay">
+                            <div class="project-overlay-content">
+                                <h3>mazinfratech Signage Solutions</h3>
+                                <p>Professional Signage • 2024</p>
+                                <button class="view-project-btn" onclick="openModal('project7')">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info-full">
+                        <span class="project-category">Signage</span>
+                        <h3>mazinfratech Signage Solutions</h3>
+                        <p>Comprehensive signage solutions provided by mazinfratech across various projects, showcasing professional branding and wayfinding systems.</p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-value">Multiple</span>
+                                <span class="stat-label">Projects</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">Ongoing</span>
+                                <span class="stat-label">Services</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">150+</div>
+                    <div class="stat-text">Projects Completed</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">98%</div>
+                    <div class="stat-text">Client Satisfaction</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">12</div>
+                    <div class="stat-text">Years Experience</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">25</div>
+                    <div class="stat-text">Expert Team</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for Project Details -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modalBody">
+                <!-- Modal content will be populated by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>mazinfratech</h3>
+                    <p>Transforming buildings with innovative front elevation designs and architectural excellence.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li>3D Elevation Design</li>
+                        <li>Facade Renovation</li>
+                        <li>Architectural Planning</li>
+                        <li>Commercial Projects</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 mazinfratech. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="projects.js"></script>
+    <script>
+        // Projects Hero Background Slideshow
+        let projectsCurrentSlide = 0;
+        const projectsSlides = document.querySelectorAll('.projects-hero-slide');
+        const projectsIndicators = document.querySelectorAll('.projects-indicator');
+        const projectsSlideInterval = 4500; // 4.5 seconds
+        let projectsSlideTimer;
+
+        function showProjectsSlide(index) {
+            // Remove active class from all slides and indicators
+            projectsSlides.forEach(slide => slide.classList.remove('active'));
+            projectsIndicators.forEach(indicator => indicator.classList.remove('active'));
+            
+            // Add active class to current slide and indicator
+            if (projectsSlides[index]) {
+                projectsSlides[index].classList.add('active');
+            }
+            if (projectsIndicators[index]) {
+                projectsIndicators[index].classList.add('active');
+            }
+            
+            projectsCurrentSlide = index;
+        }
+
+        function nextProjectsSlide() {
+            const nextIndex = (projectsCurrentSlide + 1) % projectsSlides.length;
+            showProjectsSlide(nextIndex);
+        }
+
+        function startProjectsSlideshow() {
+            projectsSlideTimer = setInterval(nextProjectsSlide, projectsSlideInterval);
+        }
+
+        function stopProjectsSlideshow() {
+            clearInterval(projectsSlideTimer);
+        }
+
+        // Initialize projects slideshow
+        if (projectsSlides.length > 0) {
+            // Add click event listeners to indicators
+            projectsIndicators.forEach((indicator, index) => {
+                indicator.addEventListener('click', () => {
+                    showProjectsSlide(index);
+                    stopProjectsSlideshow();
+                    startProjectsSlideshow(); // Restart timer
+                });
+            });
+            
+            // Pause slideshow on hero hover
+            const projectsHeroSection = document.querySelector('.projects-hero');
+            if (projectsHeroSection) {
+                projectsHeroSection.addEventListener('mouseenter', stopProjectsSlideshow);
+                projectsHeroSection.addEventListener('mouseleave', startProjectsSlideshow);
+            }
+            
+            // Start the slideshow
+            startProjectsSlideshow();
+        }
+
+        console.log('mazinfratech projects page loaded successfully!');
+    </script>
+</body>
+</html>
