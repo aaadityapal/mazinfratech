@@ -27,7 +27,7 @@ const projectData = {
         title: 'Sumilion Industry - North America',
         category: 'Industrial',
         year: '2024',
-        description: 'A large-scale industrial facility project in North America showcasing modern industrial architecture and operational efficiency design. This project demonstrates mazinfratech\'s capability in international industrial construction, featuring state-of-the-art manufacturing infrastructure and sustainable industrial design principles.',
+        description: 'A large-scale industrial facility project in North America showcasing modern industrial architecture and operational efficiency design. This project demonstrates Maz Infratech Pvt. Ltd.\'s capability in international industrial construction, featuring state-of-the-art manufacturing infrastructure and sustainable industrial design principles.',
         features: [
             'Large-scale industrial facility',
             'Modern manufacturing infrastructure',
@@ -156,7 +156,7 @@ const projectData = {
         title: 'Multilevel Parking Structure',
         category: 'Infrastructure',
         year: '2024',
-        description: 'An innovative multilevel parking facility designed by mazinfratech, showcasing modern infrastructure planning with efficient space utilization and contemporary architectural elements. This project demonstrates our expertise in creating functional yet aesthetically pleasing parking solutions that address urban mobility challenges while maintaining architectural excellence.',
+        description: 'An innovative multilevel parking facility designed by Maz Infratech Pvt. Ltd., showcasing modern infrastructure planning with efficient space utilization and contemporary architectural elements. This project demonstrates our expertise in creating functional yet aesthetically pleasing parking solutions that address urban mobility challenges while maintaining architectural excellence.',
         features: [
             'Multilevel parking infrastructure',
             'Efficient space optimization',
@@ -186,7 +186,7 @@ const projectData = {
         title: 'Gajra Raja Chikitsha Mahavidhyala',
         category: 'Educational',
         year: '2024',
-        description: 'A specialized project for Gajra Raja Chikitsha Mahavidhyala where mazinfratech provided comprehensive signage solutions and PM room front elevation design. This project showcases our expertise in medical education facility enhancement, combining functional design with institutional branding to create a professional and welcoming environment for medical education.',
+        description: 'A specialized project for Gajra Raja Chikitsha Mahavidhyala where Maz Infratech Pvt. Ltd. provided comprehensive signage solutions and PM room front elevation design. This project showcases our expertise in medical education facility enhancement, combining functional design with institutional branding to create a professional and welcoming environment for medical education.',
         features: [
             'Professional signage design',
             'PM room front elevation',
@@ -212,10 +212,10 @@ const projectData = {
         ]
     },
     project7: {
-        title: 'mazinfratech Signage Solutions',
+        title: 'Maz Infratech Pvt. Ltd. Signage Solutions',
         category: 'Signage',
         year: '2024',
-        description: 'A comprehensive showcase of professional signage solutions provided by mazinfratech across various projects. This collection demonstrates our expertise in creating high-quality signage systems, including institutional branding, wayfinding solutions, and professional identification systems that enhance the visual identity and functionality of diverse facilities.',
+        description: 'A comprehensive showcase of professional signage solutions provided by Maz Infratech Pvt. Ltd. across various projects. This collection demonstrates our expertise in creating high-quality signage systems, including institutional branding, wayfinding solutions, and professional identification systems that enhance the visual identity and functionality of diverse facilities.',
         features: [
             'Professional signage design',
             'Institutional branding solutions',

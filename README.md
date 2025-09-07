@@ -1,10 +1,10 @@
-# mazinfratech - Building Elevation Services
+# Maz Infratech Pvt. Ltd. - Building Elevation Services
 
 🏢 **Professional Building Front Elevation Design & Architectural Services**
 
-## 🌟 About mazinfratech
+## 🌟 About Maz Infratech Pvt. Ltd.
 
-mazinfratech is a leading architectural design company specializing in innovative building front elevation designs and comprehensive architectural solutions. We transform ordinary buildings into extraordinary architectural masterpieces.
+Maz Infratech Pvt. Ltd. is a leading architectural design company specializing in innovative building front elevation designs and comprehensive architectural solutions. We transform ordinary buildings into extraordinary architectural masterpieces.
 
 ## 🚀 Website Features
 
@@ -49,18 +49,18 @@ Our portfolio includes diverse projects:
 
 ## 📍 Contact Information
 
-**mazinfratech**  
+**Maz Infratech Pvt. Ltd.**  
 📧 Email: info@mazinfratech.com  
 📞 Phone: +91 9897882271 | +91 9996779173  
 📍 Address: F-52, First Floor, Madhu Vihar, I.P. Extension, Delhi-110092, India  
 
 ## 🌐 Live Website
 
-Visit our website: [mazinfratech.github.io](https://aaadityapal.github.io/mazinfratech/)
+Visit our website: [Maz Infratech Pvt. Ltd.](https://aaadityapal.github.io/mazinfratech/)
 
 ## 📄 License
 
-© 2024 mazinfratech. All rights reserved.
+© 2024 Maz Infratech Pvt. Ltd. All rights reserved.
 
 ---
 
